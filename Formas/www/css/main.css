@@ -1,0 +1,66 @@
+@font-face {
+     font-family: helveticaneue;
+     src: url('HelveticaNeueLTStd-UltLt.otf');
+}
+
+html { font-size: calc(1em + 1vw); }
+
+.iniciar{
+  text-align: center;
+  padding: 10vh 15vw;
+  margin-top: 20vh;
+  line-height: 25vh;
+  font-family: "Impact";
+}
+.iniciar h1{
+  font-size: 3em;
+  color: black;
+}
+.iniciar p{
+  color: black;
+  background: lightgrey;
+  padding: 1.5vh 5vw;
+  font-size: 2em;
+}
+
+
+.principal{
+    text-align: center;
+    font-family: "Impact";
+    line-height: 5vh;
+}
+.formas{
+  font-size: 2em;
+}
+.principal h1{
+  margin-top: 5vh;
+}
+.formas ul{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  margin: 5vh 2.5vw;
+}
+.formas ul li img{
+  height: 13vh;
+}
+
+.perdeu{
+  text-align: center;
+  padding: 10vh 15vw;
+  margin-top: 20vh;
+  line-height: 25vh;
+  font-family: "Impact";
+}
+.perdeu h1{
+  font-size: 2em;
+  color: red;
+}
+.perdeu a{
+  text-decoration: none;
+  color: black;
+  background: lightgrey;
+  padding: 5vh 5vw;
+  font-size: 1.4em;
+}
